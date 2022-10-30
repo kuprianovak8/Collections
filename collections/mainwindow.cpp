@@ -28,15 +28,22 @@ void MainWindow::on_buttonBox_rejected()
     close();
 }
 
+const std::vector<QString> &Collections::getBooks() const
+{
+    return Books;
+}
 
-//void MainWindow::on_comboBox_currentIndexChanged(int index)
-//{
+const std::vector<QString> &Collections::getMovies() const
+{
+    return Movies;
+}
 
-//}
+const std::vector<QString> &Collections::getGames() const
+{
+    return Games;
+}
 
-
-//void MainWindow::on_comboBox_textActivated(const QString &arg1)
-//{
-
-//}
-
+const std::vector<QString> &Collections::getApplications() const
+{
+    return Applications;
+}

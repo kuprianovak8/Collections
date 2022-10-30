@@ -2,6 +2,8 @@
 #define FORM_H
 
 #include <QWidget>
+#include <mainwindow.h>
+#include <QString>
 
 namespace Ui
 {
@@ -16,12 +18,17 @@ public:
     explicit Form(QWidget *parent = nullptr);
     ~Form();
 
-private slots:
-    //void on_textEdit_copyAvailable(bool b);
+/*   Collections col;
+   col.;*/
 
-   // void on_plainTextEdit_selectionChanged();
+//private slots:
 
-    void on_pushButton_clicked();
+//    void setCollections (QString books)
+//    {
+
+//    }
+
+//    void on_pushButton_clicked();
 
 private:
     Ui::Form *ui;
